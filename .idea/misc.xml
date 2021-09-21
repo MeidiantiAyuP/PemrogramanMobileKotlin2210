@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/drawable/ic_baseline_accessibility_24.xml" value="0.12962962962962962" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_constraint.xml" value="0.18" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_daftar_lahan.xml" value="0.209375" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_dutatani.xml" value="0.22" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_help.xml" value="0.11956521739130435" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_linear.xml" value="0.11956521739130435" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_protein_tracker.xml" value="0.18" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_sample_list.xml" value="0.209375" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_sample_list_view.xml" value="0.1953125" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_table.xml" value="0.18" />
         <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/tes_linear.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/menu/menu_sample_list_view.xml" value="0.209375" />
       </map>
     </option>
   </component>
