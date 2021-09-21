@@ -9,15 +9,21 @@ import androidx.lifecycle.SavedStateViewModelFactory
 
 class SampleList : AppCompatActivity() {
     lateinit var btn_list: Button
+    lateinit var btn_rec: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sample_list)
 
         btn_list=findViewById(R.id.btnShowList)
+        btn_rec=findViewById(R.id.btnSampleRV)
 
         btn_list.setOnClickListener(View.OnClickListener { view ->  
             var intent= Intent(this@SampleList, SampleListView::class.java)
+            startActivity(intent)
+        })
+        btn_rec.setOnClickListener(View.OnClickListener { view ->
+            var intent= Intent(this@SampleList, SampleRecyclerView::class.java)
             startActivity(intent)
         })
     }
