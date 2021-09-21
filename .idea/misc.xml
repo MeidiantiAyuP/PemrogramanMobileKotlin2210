@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_main.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_constraint.xml" value="0.18" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_dutatani.xml" value="0.22" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_help.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_linear.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_protein_tracker.xml" value="0.18" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/activity_table.xml" value="0.18" />
+        <entry key="..\:/Users/62823/AndroidStudioProjects/PemrogramanMobileKotlin2210/app/src/main/res/layout/tes_linear.xml" value="0.11956521739130435" />
       </map>
     </option>
   </component>
