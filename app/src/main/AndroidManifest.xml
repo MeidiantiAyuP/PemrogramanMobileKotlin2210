@@ -10,16 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".SampleCardView"
+            android:exported="true" />
+        <activity
             android:name=".SampleRecyclerView"
             android:exported="true" />
         <activity
             android:name=".DaftarLahan"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".SampleListView"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".SampleList"
             android:exported="true">
@@ -49,7 +50,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

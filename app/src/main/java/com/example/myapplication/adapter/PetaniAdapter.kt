@@ -31,11 +31,11 @@ class PetaniAdapter(val petani:List<Petani.Petani>) :
 
         fun bindPetani(petani: Petani.Petani) {
             itemView.apply {
-                txtUser = findViewById(R.id.txtUser)
-                txtNama = findViewById(R.id.txtNama)
-                txtJumlahLahan = findViewById(R.id.txtJumlahLahan)
-                txtIdentifikasi = findViewById(R.id.txtIdentifikasi)
-                txtTambahLahan = findViewById(R.id.txtTambahLahan)
+                txtUser = findViewById(R.id.txtUserCV)
+                txtNama = findViewById(R.id.txtNamaCV)
+                txtJumlahLahan = findViewById(R.id.txtJumlahLahanCV)
+                txtIdentifikasi = findViewById(R.id.txtIdentifikasiCV)
+                txtTambahLahan = findViewById(R.id.txtTambahLahanCV)
 
                 txtUser.text = petani.user
                 txtNama.text = petani.nama

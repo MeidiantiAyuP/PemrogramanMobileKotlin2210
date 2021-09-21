@@ -30,27 +30,27 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/txtUser"
+            android:id="@+id/txtUserCV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/txtNama"
+            android:id="@+id/txtNamaCV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/txtJumlahLahan"
+            android:id="@+id/txtJumlahLahanCV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/txtIdentifikasi"
+            android:id="@+id/txtIdentifikasiCV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/txtTambahLahan"
+            android:id="@+id/txtTambahLahanCV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
