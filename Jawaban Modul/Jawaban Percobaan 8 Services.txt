@@ -1,0 +1,5 @@
+72190361 / Meidianti Ayu P
+
+1. Komponen utama saat menggunakan Services adalah layout, viewholder, adapter, model, network.
+2. Letak code untuk menuliskan endpoint API di kelas kotlin bernama NetworkConfig dalam package network.
+3. Letak code untuk menuliskan base URL API di robopojogenerator, url dari json, letakan url di dalam kotak hitam lalu generate.
