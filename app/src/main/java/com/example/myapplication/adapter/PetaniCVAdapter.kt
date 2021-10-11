@@ -9,7 +9,8 @@ import com.example.myapplication.R
 import com.example.myapplication.R.layout.cv_item_petani
 import com.example.myapplication.model.Petani
 
-class PetaniCVAdapter (val petani:List<Petani.Petani>) :
+
+class PetaniCVAdapter(val petani:List<Petani>) :
     RecyclerView.Adapter<PetaniCVAdapter.PetaniHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PetaniCVAdapter.PetaniHolder {
@@ -22,26 +23,28 @@ class PetaniCVAdapter (val petani:List<Petani.Petani>) :
         return petani.size
     }
     class PetaniHolder(view: View) : RecyclerView.ViewHolder(view) {
-        lateinit var txtUserCV: TextView
-        lateinit var txtNamaCV: TextView
-        lateinit var txtJumlahLahanCV: TextView
-        lateinit var txtIdentifikasiCV: TextView
-        lateinit var txtTambahLahanCV: TextView
+        lateinit var txtUser: TextView
+        lateinit var txtNama: TextView
+        lateinit var txtJumlahLahan: TextView
+        lateinit var txtIdentifikasi: TextView
+        lateinit var txtTambahLahan: TextView
 
-        fun bindPetani(petani: Petani.Petani) {
+        fun bindPetani(petani: Petani) {
             itemView.apply {
-                txtUserCV = findViewById(R.id.txtUserCV)
-                txtNamaCV = findViewById(R.id.txtNamaCV)
-                txtJumlahLahanCV = findViewById(R.id.txtJumlahLahanCV)
-                txtIdentifikasiCV = findViewById(R.id.txtIdentifikasiCV)
-                txtTambahLahanCV = findViewById(R.id.txtTambahLahanCV)
+                txtUser = findViewById(R.id.txtUserCV)
+                txtNama = findViewById(R.id.txtNamaCV)
+                txtJumlahLahan = findViewById(R.id.txtJumlahLahanCV)
+                txtIdentifikasi = findViewById(R.id.txtIdentifikasiCV)
+                txtTambahLahan = findViewById(R.id.txtTambahLahanCV)
 
-                txtUserCV.text = petani.user
-                txtNamaCV.text = petani.nama
-                txtJumlahLahanCV.text = petani.jumlahLahan
-                txtIdentifikasiCV.text = petani.identifikasi
-                txtTambahLahanCV.text = petani.tambahLahan
+                txtUser.text = petani.user
+                txtNama.text = petani.nama
+                txtJumlahLahan.text = petani.jumlahLahan
+                txtIdentifikasi.text = petani.identifikasi
+                txtTambahLahan.text = petani.tambahLahan
             }
         }
     }
 }
+
+

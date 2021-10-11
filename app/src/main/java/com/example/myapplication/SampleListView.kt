@@ -25,17 +25,16 @@ class SampleListView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sample_list_view)
-
         lvSample = findViewById(R.id.lvSample)
-        lvSample.adapter = ArrayAdapter(this,
-            android.R.layout.simple_list_item_1, items)
+        lvSample.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
         lvSample.setOnItemClickListener { parent, view, i, l ->
-            Snackbar.make(view,"Anda memilih: ${items[i]}",
+            Snackbar.make(
+                view, "Anda memilih: ${items[i]}",
                 Snackbar.LENGTH_LONG).show()
         }
-
         spSampleList = findViewById(R.id.spSampleListView)
-        spSampleList.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, items)
+        spSampleList.adapter = ArrayAdapter(this,
+            android.R.layout.simple_spinner_item, items)
         spSampleList.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view:

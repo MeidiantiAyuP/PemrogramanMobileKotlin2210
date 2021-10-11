@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             var strTmp = edInputNama.text.toString()
             bundle.putString("tesText", strTmp)
 
-            var intent = Intent(this@MainActivity, ConstraintActivity::class.java)
+            var intent = Intent(this@MainActivity, Constraint::class.java)
             intent.putExtras(bundle)
             startActivity(intent)
         })
@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
             var strTmp = edInputNama.text.toString()
             bundle.putString("tesText", strTmp)
 
-            var intent = Intent(this@MainActivity, DutataniActivity::class.java)
+            var intent = Intent(this@MainActivity, DUTATANI::class.java)
             intent.putExtras(bundle)
             startActivity(intent)
         })

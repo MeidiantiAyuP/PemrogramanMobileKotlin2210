@@ -1,6 +1,6 @@
 package com.example.myapplication.network
 
-import com.example.myapplication.model.ResponseUsersItem
+import com.example.myapplication.model.ResponseItem
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Call
@@ -27,10 +27,10 @@ class NetworkConfig {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
-
-    interface Users {
-        @GET("users")
-        fun getUsers(): Call<List<ResponseUsersItem>>
-
-    }
+    fun getService() = getRetrofit().create(Users::class.java)
 }
+
+interface Users {
+        @GET("users")
+        fun getUsers(): Call<List<ResponseItem>>
+    }

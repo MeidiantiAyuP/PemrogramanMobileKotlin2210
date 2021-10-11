@@ -1,6 +1,5 @@
 package com.example.myapplication.model
 
-class Petani {
     data class Petani (
         val user: String,
         val nama: String,
@@ -8,4 +7,3 @@ class Petani {
         val identifikasi: String,
         val tambahLahan: String
     )
-}
